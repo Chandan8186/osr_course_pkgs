@@ -7,7 +7,7 @@ import unittest
 
 sys.path.append('../osr_examples/scripts/')
 import environment_2d
-sys.path.append('../PRM/')
+sys.path.append('../prm_util/')
 import prm_2d
 
 
