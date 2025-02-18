@@ -35,7 +35,7 @@ class PRM:
         the kd tree representing the graph of all nodes
     """
     
-    def __init__(self, env, n_nodes=1000, k_neighbors=10, max_edge_length=2.0):
+    def __init__(self, env, n_nodes=500, k_neighbors=10, max_edge_length=2.0):
         self.env = env
         self.n_nodes = n_nodes
         self.k_neighbors = k_neighbors
