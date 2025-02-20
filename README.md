@@ -76,7 +76,7 @@ This is also close to ideal as it takes a small detour to then take the most dir
 
 However, taking fewer sample points led to a longer path towards the top of the map to be taken (with a path length of about 11.5):
 ![roadmap with shortened path](images/1000_9_roadmap_path_short.png)
-Hence, the PRM is not a one-size-fits-all algorithm, some level of trial and error with the algorithm metrics is required to strike a balance between performance and compute speed.
+Hence, PRM combined with path shortcutting can compute almost ideal paths, but it is not a one-size-fits-all algorithm; some level of trial and error with the algorithm metrics is required to strike a balance between performance and compute speed.
 
 ## Findings
 ### General Performance
